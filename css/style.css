@@ -1,0 +1,181 @@
+body {
+    font-family: 'Old Standard TT',
+    serif;
+}
+
+#header_container {
+    background-color: black;
+    color: white;
+    height:200px;
+    font-family: 'Old Standard TT',
+    bold;
+    /*border:solid 2px green;*/
+}
+
+#header_container h1 {
+     line-height:200px;
+     /*border: solid 2px red;*/
+}
+
+#about_me_container {
+    background-color: white;
+}
+#about_me_container h2 {
+    line-height:100px;
+}
+
+#about_me_container i {
+     margin-top: 23px;
+}
+
+#about_me_container img {
+    margin-top: 10px;
+    min-height:25px;
+    min-width:25px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+#personal_info_container {
+    padding-top:30px;
+    background-color: whitesmoke;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    /*Üheight:400px;
+    border: solid 2px red;*/
+}
+
+#personal_info_container img {
+    height: 400px;
+    margin-bottom:30px;
+    /*border: solid 2px green;*/
+}
+
+
+#interest_jumbotron {
+    text-align: center;
+    background-color: white;
+    /*border:solid green 2px;*/
+}
+
+#interest_row {
+    margin-top: 20px;
+}
+
+#interest_row img {
+    max-height:100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#carousel_container {
+    background-color: whitesmoke;   
+    /*border: solid 2px red;*/
+    max-height:500px;
+    border-top: solid 1px gray;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-inner img {
+max-height: 400px !important;
+max-width:1000px !important;
+margin-top:10px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    max-width:1000px !important;
+    max-height:100px;
+    margin-bottom:30px;
+}
+
+#footer_container {
+    background-color: black;
+    /*border:solid red 2px;*/
+}
+
+#footer_container img {
+    max-height:75px;
+    max-width:75px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Flip-Card Effect */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    /*width: 300px;
+    height: 200px;*/
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: black;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back {
+        margin-top: 50px;
+}
+
+#footer_container {
+    background-color: black;
+    /*border:solid red 2px;*/
+}
+
+#personal_projects_container {
+    border-top: gray solid 1px;
+    padding-top:30px;
+}
+
+#project_img img {
+    max-height: 175px;
+    margin-bottom:30px;
+}
+
+#tech_stack_img img {
+    max-height:100px;
+    width:100px;    
+    margin-top:15px;
+    margin-bottom:15px;
+}
